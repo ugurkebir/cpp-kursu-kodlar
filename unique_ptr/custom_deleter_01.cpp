@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include <memory>
 
 struct SDeleter {
 	void operator()(std::string* p)
